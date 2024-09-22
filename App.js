@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import KanbanBoard from './components/KanbanBoard';
-import GroupingOptions from './components/GroupingOptions';
+import KanbanBoard from './KanbanBoard';
+import GroupingOptions from './GroupingOptions';
 
 const App = () => {
   const [tickets, setTickets] = useState([]);
